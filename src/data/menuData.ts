@@ -1,0 +1,58 @@
+import { MenuItem } from '@/types/menu';
+
+export const menuItems: MenuItem[] = [
+  {
+    id: 1,
+    name: 'Бургер Классик',
+    description: 'Сочная котлета из говядины, сыр чеддер, свежие овощи, фирменный соус',
+    price: 450,
+    image: 'https://cdn.poehali.dev/projects/a3bd4b33-778a-4734-8464-a9341cda0b4b/files/2e67e8f9-c874-4e8e-b3be-834c5ba865d7.jpg',
+    category: 'Бургеры',
+    popular: true,
+  },
+  {
+    id: 2,
+    name: 'Пицца Маргарита',
+    description: 'Томатный соус, моцарелла, свежий базилик, оливковое масло',
+    price: 550,
+    image: 'https://cdn.poehali.dev/projects/a3bd4b33-778a-4734-8464-a9341cda0b4b/files/2d9737ed-35f0-4aab-8e4d-ed625e775a10.jpg',
+    category: 'Пицца',
+    popular: true,
+  },
+  {
+    id: 3,
+    name: 'Салат Цезарь',
+    description: 'Куриное филе гриль, салат романо, сыр пармезан, сухарики, соус цезарь',
+    price: 380,
+    image: 'https://cdn.poehali.dev/projects/a3bd4b33-778a-4734-8464-a9341cda0b4b/files/c23f3a4a-d047-425d-93df-a4f30493e640.jpg',
+    category: 'Салаты',
+    popular: false,
+  },
+  {
+    id: 4,
+    name: 'Бургер Барбекю',
+    description: 'Двойная котлета, бекон, карамелизованный лук, соус барбекю',
+    price: 520,
+    image: 'https://cdn.poehali.dev/projects/a3bd4b33-778a-4734-8464-a9341cda0b4b/files/2e67e8f9-c874-4e8e-b3be-834c5ba865d7.jpg',
+    category: 'Бургеры',
+    popular: false,
+  },
+  {
+    id: 5,
+    name: 'Пицца Пепперони',
+    description: 'Томатный соус, моцарелла, острая пепперони',
+    price: 580,
+    image: 'https://cdn.poehali.dev/projects/a3bd4b33-778a-4734-8464-a9341cda0b4b/files/2d9737ed-35f0-4aab-8e4d-ed625e775a10.jpg',
+    category: 'Пицца',
+    popular: true,
+  },
+  {
+    id: 6,
+    name: 'Греческий салат',
+    description: 'Помидоры, огурцы, сыр фета, маслины, красный лук, оливковое масло',
+    price: 350,
+    image: 'https://cdn.poehali.dev/projects/a3bd4b33-778a-4734-8464-a9341cda0b4b/files/c23f3a4a-d047-425d-93df-a4f30493e640.jpg',
+    category: 'Салаты',
+    popular: false,
+  },
+];
